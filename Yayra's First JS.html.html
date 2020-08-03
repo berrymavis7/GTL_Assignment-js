@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yayra's Assigment</title>
+</head>
+<body>
+    <p Id="dateclick">Before the Click</p>
+    <button id="date">GET DATE</button>
+    <p id="date1"></p>
+
+    <script>
+        document.getElementById("date").addEventListener("click",function(){
+            document.getElementById("date1").innerHTML = Date()
+            document.getElementById("dateclick").innerHTML = 'After the Click'
+        })
+    </script>
+</body>
+</html>
